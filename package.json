@@ -1,12 +1,31 @@
 {
   "name": "netx-probe",
   "version": "0.1.0",
-  "description": "Measure real download speed, predict ETA, and auto-switch to the fastest mirror. Zero dependencies.",
+  "description": "Measure real mirror throughput, read raw download numbers, and fetch files with stall detection. Zero dependencies.",
   "type": "module",
   "bin": { "netx": "netx.mjs" },
   "files": ["netx.mjs", "README.md", "LICENSE"],
   "engines": { "node": ">=18" },
-  "keywords": ["download", "eta", "mirror", "proxy", "china", "npm", "pypi", "github", "speed-test"],
+  "keywords": [
+    "download",
+    "mirror",
+    "speed-test",
+    "stall-detection",
+    "resume",
+    "china",
+    "npm",
+    "pypi",
+    "github",
+    "cli"
+  ],
   "license": "MIT",
-  "repository": { "type": "git", "url": "git+https://github.com/USER/netx-probe.git" }
+  "author": "423324324",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/423324324/netx.git"
+  },
+  "homepage": "https://github.com/423324324/netx#readme",
+  "bugs": {
+    "url": "https://github.com/423324324/netx/issues"
+  }
 }
