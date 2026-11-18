@@ -1,0 +1,12 @@
+{
+  "name": "netx-probe",
+  "version": "0.1.0",
+  "description": "Measure real download speed, predict ETA, and auto-switch to the fastest mirror. Zero dependencies.",
+  "type": "module",
+  "bin": { "netx": "netx.mjs" },
+  "files": ["netx.mjs", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "keywords": ["download", "eta", "mirror", "proxy", "china", "npm", "pypi", "github", "speed-test"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/USER/netx-probe.git" }
+}
